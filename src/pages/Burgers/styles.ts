@@ -2,20 +2,21 @@ import styled from 'styled-components'
 
 export const Container = styled.main`
   width:100%;
-  height:100vh;
-  display:flex;
+  min-height:100vh;
 
+  display:flex;
+  flex-direction:column;
+    
   > section{
     flex:1;
     width:100%;
-    height:100%;
-    margin-bottom:3rem;
+    height:100vh;
     overflow-y:auto;
 
     padding:2rem 1.875rem;
 
 
-    .brand{
+    img{
       width:10rem;
       margin-bottom:2rem;
     }
@@ -24,9 +25,8 @@ export const Container = styled.main`
         display:flex;
         flex-direction:column;
         padding-bottom:8rem;
-        height:85vh;
 
-        .brand{
+        img{
           align-self:center;
         }
     }

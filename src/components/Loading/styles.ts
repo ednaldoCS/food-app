@@ -1,0 +1,11 @@
+import styled from 'styled-components'
+
+export const Container=styled.main`
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	position:absolute;
+	inset:0
+
+ `
